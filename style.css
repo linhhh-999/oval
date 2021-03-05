@@ -72,11 +72,10 @@
 
 .header-ul>a:hover::after {
     content: "";
-    width: 20px;
+    width: 50%;
     position: absolute;
     border-bottom: 1px solid #1D5E6D;
     bottom: 0;
-    padding: 50%;
 }
 
 .right_header button {
@@ -196,8 +195,13 @@
     padding: 260px 0 90px 88px;
 }
 
+.content3-table {
+    width: 100%;
+    display: table;
+}
+
 .content3-box {
-    display: inline-block;
+    display: table-cell;
     max-width: 380px;
     min-height: 237px;
     padding-right: 100px;
@@ -394,6 +398,7 @@
     border-radius: 10px;
     display: block;
     position: relative;
+    margin-bottom: 28px;
 }
 
 .box-1-1 {
@@ -402,6 +407,7 @@
 
 .box-1-1 img {
     margin: 11px;
+    width: 70%;
 }
 
 .box-1-2 {
@@ -429,4 +435,107 @@
 .banner2 img {
     max-width: 1200px;
     min-height: 700px;
+}
+
+.content7 {
+    text-align: center;
+    min-height: 100px;
+    padding-top: 40px;
+    border-bottom: 1px solid #E8E7E8;
+}
+
+.content7-p {
+    display: inline-block;
+    margin-left: -280px;
+    margin-right: 70px;
+}
+
+.content7-p p {
+    color: #3B3A40;
+    font-size: 24px;
+    font-family: Poppins;
+}
+
+.content7-box-seach {
+    display: inline-block;
+    max-width: 130px;
+    height: 40px;
+    position: relative;
+}
+
+.content7-box-seach input {
+    width: 390px;
+    height: 50px;
+    border-radius: 18px;
+    background: #FFFFFF;
+    border: 1px solid #D1D0D6;
+}
+
+.content7-button {
+    position: absolute;
+    padding-left: 845px;
+    margin-top: -32px;
+}
+
+.content7-button button {
+    background: #00D095;
+    border-radius: 24px;
+    padding: 10px 25px;
+    border-style: none;
+    color: #FFFFFF;
+}
+
+.footer {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 100px;
+}
+
+.column {
+    /* width: 24%; */
+    /* display: inline-block; */
+    display: table-cell;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+.row h5 {
+    color: #3B3A40;
+    font-size: 14px;
+}
+
+.column-p {
+    margin-top: 15px;
+}
+
+.column-p p {
+    color: #64626A;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.footer-icon {
+    margin-top: 36px;
+}
+
+.column h5 {
+    color: #3B3A40;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.column img {
+    padding-top: 10px;
+    display: block;
+}
+
+.footer-icon h5 {
+    color: #3B3A40;
+    font-size: 14px;
+}
+
+.footer-icon img {
+    padding-right: 20px;
 }
