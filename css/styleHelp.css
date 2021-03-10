@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    min-height: 550px;
+    border-radius: 10px;
+    background: linear-gradient(116.56deg, #CBFCFF 5.72%, #D3EDF5 53.07%);
+}
+
+.header-help-nav {
+    margin-top: 20px;
+    padding: 0 150px;
+}
+
+.header-a {
+    margin: 0 15px;
+    color: #64626A;
+}
+
+.header-a:hover {
+    border-bottom: 1px solid #348193;
+}
+
+.header-h1 {
+    margin-top: 100px;
+}
+
+.header-h1 p {
+    font-size: 53px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.header-h1 h1 {
+    font-size: 53px;
+    font-weight: bold;
+}
+
+.header-help-searchbox {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.header-help-input {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+}
+
+.header-help-input input {
+    max-width: 615px;
+    height: 60px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    color: #B3B1B7;
+}
+
+.icon-search {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    padding-left: 50%;
+    margin-top: 47px;
+    margin-left: -280px;
+    color: #64626A;
+}
+
+.header-help-p {
+    margin-top: 15px;
+    color: #64626A;
+    font-size: 16px;
+}
+
+.header-span {
+    border-bottom: 1px solid #64626A;
+}
+
+.help-content-box {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.help-content-box:hover {
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+
+.help-content-box h4 {
+    padding-top: 28px;
+    font-size: 24px;
+    color: #3B3A40;
+}
+
+.help-content-box p {
+    padding-top: 10px;
+    max-width: 275px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.content1-border {
+    padding-bottom: 70px;
+    border-bottom: 1px dashed #EAEAEA;
+}
+
+.row-center {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.help-content2-button {
+    padding-top: 20px;
+}
+
+.help-content2-button button {
+    border-radius: 21px;
+    border: 1px solid #E8E7E8;
+    margin: 0 5px;
+}
+
+.help-content2-button button:hover {
+    background: #c4b9f1;
+    color: #6C57BE;
+}
+
+.help-content-box2 {
+    padding: 22px;
+    border: 1px solid #F1F1F1;
+    border-radius: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.help-content-box2 h5 {
+    padding-top: 10px;
+    font-size: 20px;
+    color: #3B3A40;
+}
+
+.help-content-box2 p {
+    max-width: 400px;
+    color: #64626A;
+    font-size: 14px;
+}
+
+.help-content2-button2 {
+    background: #00D095;
+    border-radius: 28.5px;
+    padding: 11px 65px;
+    color: #FFFFFF;
+    margin: 50px auto;
+}
+
+.row-text {
+    margin: 0 auto;
+    max-width: 943px;
+}
+
+.help-content3-accordion {
+    padding-top: 20px;
+    max-width: 943px;
+    margin: 0 auto;
+}
+
+.content3-item {
+    margin: 30px;
+    border-radius: 12px;
+    border: 1px solid #F1F1F1;
+}
